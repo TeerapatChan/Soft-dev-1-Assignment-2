@@ -1,0 +1,16 @@
+.hero-background {
+    background-image: url("./img/exhibition_02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #2e2e2e;
+    border-color: #2e2e2e;
+}
+
+.btn-primary:hover {
+    background-color: #555555;
+    border-color: #555555;
+}
