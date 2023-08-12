@@ -13,10 +13,10 @@ submit.addEventListener('click', () => {
         alert('Please select the booth size');
     }else if (chairs.value === ''){
         alert('Please fill in the number of chairs');
-    }else if (name.value === ''){
-        alert('Please fill in the contact person name');
     }else if (chairs.value < 1 || chairs.value > 10){
         alert('Please fill in the number of chairs between 1 and 10');
+    }else if (name.value === ''){
+        alert('Please fill in the contact person name');
     }else if (tel.value === ''){
         alert('Please fill in the contact number');
     }else{
